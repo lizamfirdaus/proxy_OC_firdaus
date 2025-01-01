@@ -1,0 +1,155 @@
+proxies:
+- name: BUG-1ILPED
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+- name: BUG-2ILPED
+  server: 172.67.22.129
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: BUG-3ILPED
+  server: 104.16.66.85
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: BUG-4ILPED
+  server: 104.18.25.139
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: R_GR1
+  server: 172.67.22.129
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: R_GR2
+  server: 104.22.20.245
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: R_GR3
+  server: 104.22.21.245
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: R_GR4
+  server: 104.16.85.20
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: KUNCIE_A
+  server: api.kuncie.com
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: SERVER 1
+  server: 104.26.7.171
+  port: 443
+  type: trojan
+  password: b12cbbbb-7116-4dfd-b115-520d1e648097
+  skip-cert-verify: true
+  sni: sg7.servercepat.net
+  network: ws
+  ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg7.servercepat.net
+  udp: true
+- name: SERVER 2
+  server: 104.26.7.171
+  port: 443
+  type: trojan
+  password: vvip-rsftr123
+  sni: sg3tr.jagoan.vip
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg3tr.jagoan.vip
+- name: BUG-2ILPED SERVER 2
+  server: 172.67.22.129
+  port: 443
+  type: trojan
+  password: f261e93f-9d31-49cb-94d7-54c19c184d4d
+  skip-cert-verify: true
+  sni: iddewabiz.bangnet.cloud
+  network: ws
+  ws-opts:
+      path: /trojanws
+      headers:
+        Host: iddewabiz.bangnet.cloud
+  udp: true
